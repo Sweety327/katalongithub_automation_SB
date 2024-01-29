@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_test_suit1,Chrome 120.0.0.0,,,27-01-2024 18:37:50,27-01-2024 18:38:56,1m - 5.256s,PASSED
+,,,,,,,
+Test Cases/Amazon/validate amazon application for invalid credentials_003,Chrome 120.0.0.0,,,27-01-2024 18:37:51,27-01-2024 18:38:04,12.878s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 18:37:51,27-01-2024 18:37:53,2.297s,PASSED
+"navigateToUrl(""http://www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 18:37:53,27-01-2024 18:37:57,3.989s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 120.0.0.0,,,27-01-2024 18:37:57,27-01-2024 18:38:00,3.038s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/input_email""), ""hariniguggilla.456@gmail.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:00,27-01-2024 18:38:02,1.455s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,27-01-2024 18:38:02,27-01-2024 18:38:03,1.381s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 18:38:03,27-01-2024 18:38:04,0.254s,PASSED
+,,,,,,,
+Test Cases/Amazon/validate change language option on amazon 005,Chrome 120.0.0.0,,,27-01-2024 18:38:04,27-01-2024 18:38:13,9.805s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 18:38:04,27-01-2024 18:38:04,0.877s,PASSED
+"navigateToUrl(""http://www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:04,27-01-2024 18:38:09,4.058s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Amazon.com. Spend less. Smile more/div_EN""))",Chrome 120.0.0.0,,,27-01-2024 18:38:09,27-01-2024 18:38:12,3.387s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Change Language  Currency Settings/i_a-icon a-icon-radio""))",Chrome 120.0.0.0,,,27-01-2024 18:38:12,27-01-2024 18:38:13,1.200s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 18:38:13,27-01-2024 18:38:13,0.204s,PASSED
+,,,,,,,
+Test Cases/Amazon/validate forgot password functionality 004,Chrome 120.0.0.0,,,27-01-2024 18:38:13,27-01-2024 18:38:33,19.204s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 18:38:13,27-01-2024 18:38:14,0.930s,PASSED
+"navigateToUrl(""http://www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:14,27-01-2024 18:38:19,4.570s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 120.0.0.0,,,27-01-2024 18:38:19,27-01-2024 18:38:22,3.491s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/input_email""), ""hariniguggilla.123@gmail.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:22,27-01-2024 18:38:24,1.934s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,27-01-2024 18:38:24,27-01-2024 18:38:27,2.201s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/a_Forgot your password""))",Chrome 120.0.0.0,,,27-01-2024 18:38:27,27-01-2024 18:38:28,1.702s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Amazon Password Assistance/inputcontinue""))",Chrome 120.0.0.0,,,27-01-2024 18:38:28,27-01-2024 18:38:31,3.134s,PASSED
+"rightClick(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Authentication required/span_Weve sent a One Time Password (OTP) to_af2fc8""))",Chrome 120.0.0.0,,,27-01-2024 18:38:31,27-01-2024 18:38:32,0.581s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_OR_004/Page_Authentication required/div_cvf-input-code-container     flex 1  Ve_7df075""))",Chrome 120.0.0.0,,,27-01-2024 18:38:32,27-01-2024 18:38:32,0.370s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 18:38:32,27-01-2024 18:38:33,0.205s,PASSED
+,,,,,,,
+Test Cases/Amazon/validate successfull sign in with valid credentials 002,Chrome 120.0.0.0,,,27-01-2024 18:38:33,27-01-2024 18:38:43,10.925s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 18:38:33,27-01-2024 18:38:33,0.799s,PASSED
+"navigateToUrl(""http://www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:33,27-01-2024 18:38:36,3.031s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 120.0.0.0,,,27-01-2024 18:38:36,27-01-2024 18:38:38,1.882s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_email""), ""hariniguggilla.123@gmail.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:38,27-01-2024 18:38:40,1.901s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,27-01-2024 18:38:40,27-01-2024 18:38:42,1.669s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_password""), ""g/lpaYNY8qIiE38mW7XgiA=="")",Chrome 120.0.0.0,,,27-01-2024 18:38:42,27-01-2024 18:38:43,0.931s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,27-01-2024 18:38:43,27-01-2024 18:38:43,0.414s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 18:38:43,27-01-2024 18:38:43,0.240s,PASSED
+,,,,,,,
+Test Cases/Amazon/validate the amazon application to search an item,Chrome 120.0.0.0,,,27-01-2024 18:38:43,27-01-2024 18:38:56,12.097s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 18:38:44,27-01-2024 18:38:44,0.834s,PASSED
+"navigateToUrl(""http://www.amazon.com"")",Chrome 120.0.0.0,,,27-01-2024 18:38:44,27-01-2024 18:38:48,3.801s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,27-01-2024 18:38:48,27-01-2024 18:38:52,3.815s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 120.0.0.0,,,27-01-2024 18:38:52,27-01-2024 18:38:53,0.780s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,27-01-2024 18:38:53,27-01-2024 18:38:55,2.584s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 18:38:55,27-01-2024 18:38:56,0.207s,PASSED

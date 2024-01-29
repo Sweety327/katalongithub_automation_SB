@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_test_suit1" time="65.256" tests="5" failures="0" errors="0">
+   <testsuite name="Amazon_test_suit1" tests="5" failures="0" errors="0" time="65.256" skipped="0" timestamp="27-01-2024T18:37:50" hostname="guggi - LAPTOP-EVRU7AJ2" id="Test Suites/Amazon_test_suit1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\guggi\\Katalon Studio\\Software Automation Testing with Katalon\\Reports\\20240127_183743\\Amazon_test_suit1\\20240127_183743"/>
+         <property name="logFiles" value="C:\\Users\\guggi\\Katalon Studio\\Software Automation Testing with Katalon\\Reports\\20240127_183743\\Amazon_test_suit1\\20240127_183743\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="guggi - LAPTOP-EVRU7AJ2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.119"/>
+         <property name="sessionId" value="1e1b8454eb04a18702595948af99ae69"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/validate amazon application for invalid credentials_003" time="12.878" classname="Test Cases/Amazon/validate amazon application for invalid credentials_003" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:37:51 - [TEST_CASE][PASSED] - Test Cases/Amazon/validate amazon application for invalid credentials_003: Test Cases/Amazon/validate amazon application for invalid credentials_003
+
+27-01-2024T18:37:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:37:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:37:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:37:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:37:53 - [TEST_STEP][PASSED] - navigateToUrl("http://www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:37:57 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Object: 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/input_email"), "hariniguggilla.456@gmail.com"): Text 'hariniguggilla.456@gmail.com' is set on object 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:02 - [MESSAGE][PASSED] - Text 'hariniguggilla.456@gmail.com' is set on object 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_invalidCredentialsSignin003/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:38:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/validate change language option on amazon 005" time="9.805" classname="Test Cases/Amazon/validate change language option on amazon 005" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:38:04 - [TEST_CASE][PASSED] - Test Cases/Amazon/validate change language option on amazon 005: Test Cases/Amazon/validate change language option on amazon 005
+
+27-01-2024T18:38:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:38:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:38:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:38:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:38:04 - [TEST_STEP][PASSED] - navigateToUrl("http://www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:09 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Amazon.com. Spend less. Smile more/div_EN")): Object: 'Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Amazon.com. Spend less. Smile more/div_EN' is clicked on
+
+27-01-2024T18:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Amazon.com. Spend less. Smile more/div_EN' is clicked on
+
+27-01-2024T18:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Change Language  Currency Settings/i_a-icon a-icon-radio")): Object: 'Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Change Language  Currency Settings/i_a-icon a-icon-radio' is clicked on
+
+27-01-2024T18:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_changeLanguage_OR_005/Page_Change Language  Currency Settings/i_a-icon a-icon-radio' is clicked on
+
+27-01-2024T18:38:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:38:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/validate forgot password functionality 004" time="19.204" classname="Test Cases/Amazon/validate forgot password functionality 004" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:38:13 - [TEST_CASE][PASSED] - Test Cases/Amazon/validate forgot password functionality 004: Test Cases/Amazon/validate forgot password functionality 004
+
+27-01-2024T18:38:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:38:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:38:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:38:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:38:14 - [TEST_STEP][PASSED] - navigateToUrl("http://www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:19 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/input_email"), "hariniguggilla.123@gmail.com"): Text 'hariniguggilla.123@gmail.com' is set on object 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:24 - [MESSAGE][PASSED] - Text 'hariniguggilla.123@gmail.com' is set on object 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/a_Forgot your password")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/a_Forgot your password' is clicked on
+
+27-01-2024T18:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Sign-In/a_Forgot your password' is clicked on
+
+27-01-2024T18:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Amazon Password Assistance/inputcontinue")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Password Assistance/inputcontinue' is clicked on
+
+27-01-2024T18:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Amazon Password Assistance/inputcontinue' is clicked on
+
+27-01-2024T18:38:31 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Authentication required/span_Weve sent a One Time Password (OTP) to_af2fc8")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Authentication required/span_Weve sent a One Time Password (OTP) to_af2fc8' is right clicked on
+
+27-01-2024T18:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Authentication required/span_Weve sent a One Time Password (OTP) to_af2fc8' is right clicked on
+
+27-01-2024T18:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_OR_004/Page_Authentication required/div_cvf-input-code-container     flex 1  Ve_7df075")): Object: 'Object Repository/Amazon_pages_OR_004/Page_Authentication required/div_cvf-input-code-container     flex 1  Ve_7df075' is clicked on
+
+27-01-2024T18:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_OR_004/Page_Authentication required/div_cvf-input-code-container     flex 1  Ve_7df075' is clicked on
+
+27-01-2024T18:38:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:38:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/validate successfull sign in with valid credentials 002" time="10.925" classname="Test Cases/Amazon/validate successfull sign in with valid credentials 002" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:38:33 - [TEST_CASE][PASSED] - Test Cases/Amazon/validate successfull sign in with valid credentials 002: Test Cases/Amazon/validate successfull sign in with valid credentials 002
+
+27-01-2024T18:38:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:38:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:38:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:38:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:38:33 - [TEST_STEP][PASSED] - navigateToUrl("http://www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:36 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+27-01-2024T18:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_email"), "hariniguggilla.123@gmail.com"): Text 'hariniguggilla.123@gmail.com' is set on object 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:40 - [MESSAGE][PASSED] - Text 'hariniguggilla.123@gmail.com' is set on object 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:38:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_password"), "g/lpaYNY8qIiE38mW7XgiA=="): Text ****** has been set on object 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_password'
+
+27-01-2024T18:38:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/input_password'
+
+27-01-2024T18:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+27-01-2024T18:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_successfullsignin_002/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+27-01-2024T18:38:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:38:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/validate the amazon application to search an item" time="12.097" classname="Test Cases/Amazon/validate the amazon application to search an item" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:38:43 - [TEST_CASE][PASSED] - Test Cases/Amazon/validate the amazon application to search an item: Test Cases/Amazon/validate the amazon application to search an item
+
+27-01-2024T18:38:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:38:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:38:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:38:44 - [TEST_STEP][PASSED] - navigateToUrl("http://www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:48 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+27-01-2024T18:38:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+27-01-2024T18:38:52 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+27-01-2024T18:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Da vinci code"): Text 'Da vinci code' is set on object 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+27-01-2024T18:38:53 - [MESSAGE][PASSED] - Text 'Da vinci code' is set on object 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+27-01-2024T18:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+27-01-2024T18:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_searchitem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+27-01-2024T18:38:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T18:37:50 - [TEST_SUITE][PASSED] - Amazon_test_suit1: Test Cases/Amazon/validate the amazon application to search an item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
