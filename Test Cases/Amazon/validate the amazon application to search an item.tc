@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate the amazon application to search an item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4e2688c-1c9d-44b4-9177-5724cd5aaf0e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>388c18e4-d1cd-444a-83ab-0dcf8ecda25b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestdataAmazon/testdata_search_item_tc</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>388c18e4-d1cd-444a-83ab-0dcf8ecda25b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>itemname</value>
+      <variableId>0b8c2e0e-b153-48f4-be7a-a031f200a8c9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b8c2e0e-b153-48f4-be7a-a031f200a8c9</id>
+      <masked>false</masked>
+      <name>itemname</name>
+   </variable>
+</TestCaseEntity>
