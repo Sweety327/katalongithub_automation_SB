@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search an item tc DDT excel mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af2ba9e3-5427-4532-93d1-ea385530a08a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ccd32099-69a7-46aa-b9e0-42413f2b5c36</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestdataAmazon/testdata_search_item_tc</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ccd32099-69a7-46aa-b9e0-42413f2b5c36</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>itemname</value>
+      <variableId>f95addbd-59eb-4747-9be0-d956996aa927</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f95addbd-59eb-4747-9be0-d956996aa927</id>
+      <masked>false</masked>
+      <name>itemname</name>
+   </variable>
+</TestCaseEntity>
